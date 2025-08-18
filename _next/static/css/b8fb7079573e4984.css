@@ -1,0 +1,308 @@
+@keyframes case-study-modal_rotation__ing68 {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.case-study-modal_overlay__VjfFF {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  background: rgba(2, 0, 35, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9998;
+  padding: 0;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_overlay__VjfFF {
+    padding: var(--space-s);
+  }
+}
+@media only screen and (max-width: 1919px) {
+  .case-study-modal_overlay__VjfFF {
+    padding: var(--space-l);
+  }
+}
+@media only screen and (max-width: 3439px) {
+  .case-study-modal_overlay__VjfFF {
+    padding: var(--space-xl);
+  }
+}
+.case-study-modal_modal__sK1EJ {
+  width: 100%;
+  max-width: 100vw;
+  max-height: 90vh;
+  position: relative;
+  background: #020023;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.case-study-modal_modalContent__U92h1 {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+}
+.case-study-modal_header__jmc_T {
+  width: 100%;
+  position: relative;
+  background-image: url(https://placehold.co/1920x436);
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  max-height: 30rem;
+}
+.case-study-modal_header__jmc_T:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(225deg, rgba(2, 0, 35, 0), #020023);
+}
+.case-study-modal_nav__RH7bd {
+  width: 100%;
+  padding: var(--space-s) var(--space-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+.case-study-modal_navContent__cJh7h {
+  flex: 1 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.case-study-modal_logoButton__w_6L_ {
+  padding: 0.5rem;
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.case-study-modal_logoIcon___55LQ {
+  width: var(--space-s);
+  height: var(--space-s);
+  position: relative;
+}
+.case-study-modal_headerContent__2Umu_ {
+  width: 100%;
+  padding: var(--space-s) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  position: relative;
+  z-index: 3;
+  margin-top: auto;
+  padding-top: var(--space-m);
+}
+.case-study-modal_title__vx_Z3 {
+  color: #fff;
+  font-family: FK Grotesk, sans-serif;
+  font-size: var(--step-4);
+  font-weight: 400;
+  line-height: 1.15;
+  max-width: 100%;
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_title__vx_Z3 {
+    font-size: var(--step-2);
+  }
+}
+.case-study-modal_mainContent__OEgdg {
+  width: 100%;
+  padding: var(--space-l) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+  position: relative;
+  height: 100%;
+}
+.case-study-modal_mainContent__OEgdg:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50rem;
+  height: 50rem;
+  background: radial-gradient(
+    circle at bottom right,
+    rgba(115, 87, 255, 0.7) 0,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.5;
+}
+.case-study-modal_description__pPaHp {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.case-study-modal_descriptionContent__yL9Gv {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #fff;
+  font-family: Decagram, sans-serif;
+  font-size: var(--step--1);
+  font-weight: 400;
+  line-height: 1.45;
+  max-width: 100%;
+}
+.case-study-modal_descriptionCTA__RZQmN {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.case-study-modal_statsContainer__8JZT3 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--grid-gutter);
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(12, 1fr);
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+  grid-gap: 0;
+  gap: 0;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (max-width: calc(1280px - 1px)) {
+  .case-study-modal_statsContainer__8JZT3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}
+.case-study-modal_challengesSection__ucfhj {
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 1;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_challengesSection__ucfhj {
+    border-right: 1px solid #fff;
+  }
+}
+.case-study-modal_challengeBlock__6xQ0a {
+  flex: 1 1;
+  padding: var(--space-m);
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: var(--space-xs);
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_challengeBlock__6xQ0a {
+    padding: var(--space-m);
+  }
+}
+.case-study-modal_challengeTitle__I2OmO {
+  color: #6c51f5;
+  font-family: FK Grotesk, sans-serif;
+  font-size: var(--step-0);
+  font-weight: 500;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_challengeTitle__I2OmO {
+    font-size: var(--step-1);
+  }
+}
+.case-study-modal_challengeText__bMd_V {
+  color: #fff;
+  font-family: Decagram, sans-serif;
+  font-size: var(--step--2);
+  font-weight: 400;
+  line-height: 1.45;
+  max-width: 100%;
+}
+.case-study-modal_statsSection__A1UDw {
+  grid-column: 7 / span 6;
+  grid-row: 1 / span 1;
+  padding: var(--space-s) 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-left: 1px solid #fff;
+  width: 100%;
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_statsSection__A1UDw {
+    padding: var(--space-l) 0;
+  }
+}
+.case-study-modal_statBlock__huI24 {
+  flex: 1 1;
+  padding: var(--space-s);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  text-align: left;
+  border-right: 1px solid #fff;
+}
+.case-study-modal_statBlock__huI24:last-child {
+  border-right: none;
+}
+.case-study-modal_statValue__EKDJd {
+  color: #6c51f5;
+  font-family: FK Grotesk, sans-serif;
+  font-size: var(--step-3);
+  font-weight: 500;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 1519px) {
+  .case-study-modal_statValue__EKDJd {
+    font-size: var(--step-2);
+  }
+}
+.case-study-modal_statLabel__82wHF {
+  color: #fff;
+  font-family: Decagram, sans-serif;
+  font-size: var(--step--1);
+  font-weight: 400;
+  line-height: 1.45;
+}
+.case-study-modal_fullTitle__NEHUP {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+.case-study-modal_introduction__f_sd6 {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.case-study-modal_introduction__f_sd6 p {
+  margin-bottom: 1rem;
+}

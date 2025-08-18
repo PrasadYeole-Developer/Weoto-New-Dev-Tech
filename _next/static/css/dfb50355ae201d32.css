@@ -1,0 +1,16 @@
+@keyframes page_rotation__5PiLd {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.page_main__lYKj_ {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.page_dark__JbUxg {
+  background-color: #17171b;
+}
