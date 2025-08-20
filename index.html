@@ -208,6 +208,7 @@
         gap: 2rem !important;
         align-items: flex-start !important;
         justify-content: space-between !important;
+        transition: opacity 0.7s ease, transform 0.7s ease;
 
         /* placement & sizing */
         position: absolute !important;
@@ -263,14 +264,23 @@
         display: block !important;
         position: static !important; /* IMPORTANT: cancel any absolute from original CSS */
         box-sizing: border-box !important;
+        background: none !important;
+        box-shadow: none;
       }
 
       /* Link style inside mega menu columns */
       .navbar_menuItem__5S2KM.expertise .expertiseDropdown a {
         display: block !important;
-        padding: 0.7rem 0 !important;
+        padding: 0.8rem 0 !important;
         color: inherit !important;
         white-space: normal !important;
+      }
+
+      .navbar_menuItem__5S2KM.expertise
+        .expertiseDropdown
+        .link-card_container___CAfK {
+        box-shadow: none !important;
+        background: none !important;
       }
 
       /* If original CSS set widths on inner elements, prevent overflow */
