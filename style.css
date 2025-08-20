@@ -1,0 +1,144 @@
+/* Ensure dropdown parents are positioned relative */
+.navbar_menuItem__5S2KM {
+  position: relative;
+}
+
+/* Dropdown base style (all menus) */
+.navbar_menuItem__5S2KM ul:not(.expertiseDropdown) {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 2rem;
+  z-index: 1000;
+
+  /* hidden state */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show on hover (default dropdowns) */
+.navbar_menuItem__5S2KM:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Make sure the menu parent is the reference for absolute placement */
+.navbar_menuItem__5S2KM {
+  position: relative !important;
+  z-index: 1100; /* ensure parent sits above other page layers */
+}
+
+/* Force the expertise mega menu to render as a centered multi-column panel */
+.navbar_menuItem__5S2KM.expertise:hover .expertiseDropdown {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 2rem !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  transition: opacity 0.7s ease, transform 0.7s ease;
+
+  /* placement & sizing */
+  position: absolute !important;
+  top: calc(100% + 8px) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: min(1200px, 92vw) !important;
+  max-width: 1200px !important;
+  padding: 1.25rem 1.5rem !important;
+  border-radius: 8px !important;
+  background: #ffffff !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  z-index: 1200 !important;
+  box-sizing: border-box !important;
+  margin-top: -0.5rem !important;
+}
+
+/* Ensure any "closed" class from the original CSS cannot hide it */
+.navbar_menuItem__5S2KM.expertise .navbar_dropdownClosed__z7rz5,
+.navbar_menuItem__5S2KM.expertise .navbar_dropdownMenuHorizontalColumns__YtFDh {
+  display: flex !important;
+}
+
+/* Make each top-level <li> inside the mega menu act like a column */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown > li {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 0 !important; /* share available width */
+  min-width: 160px !important; /* avoid collapse */
+  max-width: 33% !important; /* 3 columns */
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+
+/* Titles in each column */
+.navbar_menuItem__5S2KM.expertise
+  .expertiseDropdown
+  > li
+  > .navbar_categoryTitle__RnbNN {
+  margin-bottom: 0.2rem !important;
+}
+
+/* Reset nested lists so they flow inside columns (no absolute) */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown > li ul,
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown > li ul li {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  display: block !important;
+  position: static !important; /* IMPORTANT: cancel any absolute from original CSS */
+  box-sizing: border-box !important;
+  background: none !important;
+  box-shadow: none;
+}
+
+/* Link style inside mega menu columns */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown a {
+  display: block !important;
+  padding: 0.8rem 0 !important;
+  color: inherit !important;
+  white-space: normal !important;
+}
+
+.navbar_menuItem__5S2KM.expertise
+  .expertiseDropdown
+  .link-card_container___CAfK {
+  box-shadow: none !important;
+  background: none !important;
+}
+
+/* If original CSS set widths on inner elements, prevent overflow */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown * {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown .approachHome a {
+  padding: 2rem !important; /* Updated approach list item's spacing */
+}
+
+.scrollTitle {
+  display: none;
+}
+@media (min-width: 780px) {
+  .scrollTitle {
+    display: block;
+  }
+}
+.navbar_logo__Serug h2 {
+  font-size: 2.5rem;
+}
+.footerLogo h2 {
+  font-size: 4.5rem;
+}
