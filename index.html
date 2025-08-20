@@ -98,6 +98,25 @@
       as="style"
       data-precedence="dynamic"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide(".hero-header-carousel_scrollableContainer__XLzjl", {
+          type: "loop",
+          autoplay: true,
+          interval: 5000,
+          pauseOnHover: false,
+          arrows: false,
+          pagination: true,
+        }).mount();
+      });
+    </script>
+
     <title>
       Custom digital transformation solutions for innovation &amp; modernization
       | Digital transformation | Lumenalta
@@ -141,15 +160,62 @@
       name="twitter:image"
       content="https://a-us.storyblok.com/f/1019928/1200x630/d5425f9008/thumbnail-open-graph.png"
     />
+    <style>
+      /* Ensure dropdown parents are positioned relative */
+      .navbar_menuItem__5S2KM {
+        position: relative;
+      }
+
+      /* Dropdown base style (all menus) */
+      .navbar_menuItem__5S2KM ul:not(.expertiseDropdown) {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #fff;
+        min-width: 220px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        padding: 2rem;
+        z-index: 1000;
+
+        /* hidden state */
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+
+      /* Show on hover (default dropdowns) */
+      .navbar_menuItem__5S2KM:hover ul {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+
+      /* Expertise dropdown fix (mega menu override) */
+      .navbar_menuItem__5S2KM.expertise:hover .expertiseDropdown {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        gap: 2rem !important; /* smaller, balanced spacing */
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+        width: 70rem !important; /* wide enough for 3 columns */
+        padding: 2rem !important;
+        border-radius: 8px !important;
+        left: 50% !important; /* center under parent */
+        transform: translateX(-50%) !important;
+        position: absolute !important;
+        top: 100% !important;
+        align-items: flex-start !important; /* align column titles neatly at top */
+      }
+    </style>
   </head>
   <body>
     <div>
-      <div
-        class="intro-animation_introAnimation___Pait introAnimation"
-        id="introAnimation"
-      >
-        <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
-      </div>
       <a
         class="announcement-bar_link__AOGEV announcement-bar_lightBar__ukhrA"
         href="https://celebrating-25-years.lumenalta.com/"
@@ -206,7 +272,7 @@
               </div>
               <div class="navbar_menu__gTcHr">
                 <ul>
-                  <li class="navbar_menuItem__5S2KM">
+                  <li class="navbar_menuItem__5S2KM expertise">
                     <button class="navbar_dropdownButton__AH1Vg">
                       Expertise<svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -220,7 +286,7 @@
                       </svg>
                     </button>
                     <ul
-                      class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenuHorizontalColumns__YtFDh"
+                      class="expertiseDropdown navbar_dropdownClosed__z7rz5 navbar_dropdownMenuHorizontalColumns__YtFDh"
                     >
                       <li>
                         <div
@@ -414,29 +480,31 @@
                     </ul>
                   </li>
                   <li class="navbar_menuItem__5S2KM">
-                    <button
-                      id="contact-us-navbar-button"
-                      class="button_button__zuVOf button_button-secondary___2Roj navbar_contactUsButton__yU_qe"
-                      type="button"
-                      data-href="/contact"
-                    >
-                      Contact us
-                      <div class="button_icon__z6meo">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 20 20"
-                          width="100%"
-                          height="100%"
-                        >
-                          <g stroke="currentColor" stroke-width="1.5">
-                            <path
-                              d="M.833 9.996H18.23M9.532 18.697L18.23 10 9.532 1.303"
-                            ></path>
-                          </g>
-                        </svg>
-                      </div>
-                    </button>
+                    <a href="contact.html" style="text-decoration: none">
+                      <button
+                        id="contact-us-navbar-button"
+                        class="button_button__zuVOf button_button-secondary___2Roj navbar_contactUsButton__yU_qe"
+                        type="button"
+                        data-href="/contact"
+                      >
+                        Contact us
+                        <div class="button_icon__z6meo">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            height="100%"
+                          >
+                            <g stroke="currentColor" stroke-width="1.5">
+                              <path
+                                d="M.833 9.996H18.23M9.532 18.697L18.23 10 9.532 1.303"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </button>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -574,7 +642,6 @@
                 id="mobile-nav-contact-us"
                 class="button_button__zuVOf button_button-tertiary__CgexW"
                 type="button"
-                data-href="/contact"
               >
                 Contact us
                 <div class="button_icon__z6meo">
@@ -630,7 +697,6 @@
               color: transparent;
             "
             sizes="100vw"
-            
             src="_next/bg-primary0192.jpg"
           />
         </div>
@@ -711,7 +777,6 @@
               color: transparent;
             "
             sizes="100vw"
-            
             src="_next/bg-primary0192.jpg"
           />
         </div>
@@ -747,8 +812,8 @@
                             src="https://a-us.storyblok.com/f/1019928/x/3550b71468/sbj_ad_v3.mp4"
                             type="video/mp4"
                           />
-                          Your browser does not support the video tag.</video
-                        >
+                          Your browser does not support the video tag.
+                        </video>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="1303"
@@ -772,55 +837,13 @@
                             AI-FIRST SOFTWARE ENGINEERING
                           </h1>
                         </div>
-                        
-                        
+
                         <div class="hero-header-carousel_overlay__Z0GRO"></div>
                       </div>
                     </li>
-                    <li
-                      class="splide__slide hero-header-carousel_slider__eqWRX"
-                    >
-                      <div
-                        class="hero-header-carousel_slide__qdCc7 hero-header-carousel_isConsentVisible__quIge"
-                      >
-                        <video
-                          class="hero-header-carousel_backgroundVideo__rE8ij"
-                          autoplay=""
-                          muted=""
-                          playsinline=""
-                          loop=""
-                          preload="metadata"
-                          poster="https://a-us.storyblok.com/f/1019928/2868x1574/a87afcfa8b/roboflow-wp-homepage-thumbnail.png/m/"
-                          controlsList="nodownload"
-                        >
-                          <source
-                            src="https://a-us.storyblok.com/f/1019928/x/b877d71b24/roboflow-wp.mp4"
-                            type="video/mp4"
-                          />
-                          Your browser does not support the video tag.</video
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="1303"
-                          height="1080"
-                          viewBox="0 0 1303 1080"
-                          fill="none"
-                          class="hero-header-carousel_rotatingIcon__pTABK"
-                        >
-                          <path
-                            opacity="0.1"
-                            d="M484.275 391.61L484.551 391.693L484.761 391.497L1124.86 -205.408L1302.16 -15.2761L662.062 581.629L661.852 581.825L661.916 582.105L854.766 1430.58L599.866 1490.34L407.017 641.876L406.953 641.592L406.674 641.508L-426.077 390.152L-348.678 140.042L484.275 391.61Z"
-                            stroke="white"
-                          ></path>
-                        </svg>
-                        
-                        <div class="hero-header-carousel_overlay__Z0GRO"></div>
-                      </div>
-                    
                   </ul>
                 </div>
               </div>
-           
-              
             </div>
           </div>
           <div class="story-page_underHeroContainer__wQj5X">
@@ -3620,38 +3643,5 @@
         </footer>
       </div>
     </div>
- 
-      <div id="cursorslider" class="Cursor_cursor-slider__1hNby"></div>
-      <div
-        class="Cursor_cursor__SL3bA Cursor_dot__qrv7V"
-        style="
-          width: 20px;
-          height: 20px;
-          top: -10px;
-          left: -10px;
-          background-color: rgba(90, 62, 226, 1);
-        "
-      ></div>
-      <div
-        class="Cursor_cursor__SL3bA Cursor_dot1__7gB18"
-        style="
-          width: 20px;
-          height: 20px;
-          top: -10px;
-          left: -10px;
-          background-color: rgba(90, 62, 226, 0.3);
-        "
-      ></div>
-      <div
-        class="Cursor_cursor__SL3bA Cursor_dot2__QlXlT"
-        style="
-          width: 20px;
-          height: 20px;
-          top: -10px;
-          left: -10px;
-          background-color: rgba(90, 62, 226, 0.2);
-        "
-      ></div>
-    </div> -->
   </body>
 </html>
