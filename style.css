@@ -45,7 +45,7 @@
   gap: 2rem !important;
   align-items: flex-start !important;
   justify-content: space-between !important;
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition: opacity 0.7s ease, transform 0.3s ease;
 
   /* placement & sizing */
   position: absolute !important;
