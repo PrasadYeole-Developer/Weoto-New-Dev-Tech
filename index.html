@@ -194,23 +194,92 @@
         pointer-events: auto;
       }
 
-      /* Expertise dropdown fix (mega menu override) */
+      /* Make sure the menu parent is the reference for absolute placement */
+      .navbar_menuItem__5S2KM {
+        position: relative !important;
+        z-index: 1100; /* ensure parent sits above other page layers */
+      }
+
+      /* Force the expertise mega menu to render as a centered multi-column panel */
       .navbar_menuItem__5S2KM.expertise:hover .expertiseDropdown {
         display: flex !important;
+        flex-direction: row !important;
         flex-wrap: nowrap !important;
+        gap: 2rem !important;
+        align-items: flex-start !important;
         justify-content: space-between !important;
-        gap: 2rem !important; /* smaller, balanced spacing */
+
+        /* placement & sizing */
+        position: absolute !important;
+        top: calc(100% + 8px) !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: min(1200px, 92vw) !important;
+        max-width: 1200px !important;
+        padding: 1.25rem 1.5rem !important;
+        border-radius: 8px !important;
+        background: #ffffff !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
         opacity: 1 !important;
         visibility: visible !important;
         pointer-events: auto !important;
-        width: 70rem !important; /* wide enough for 3 columns */
-        padding: 2rem !important;
-        border-radius: 8px !important;
-        left: 50% !important; /* center under parent */
-        transform: translateX(-50%) !important;
-        position: absolute !important;
-        top: 100% !important;
-        align-items: flex-start !important; /* align column titles neatly at top */
+        z-index: 1200 !important;
+        box-sizing: border-box !important;
+        margin-top: -0.5rem !important;
+      }
+
+      /* Ensure any "closed" class from the original CSS cannot hide it */
+      .navbar_menuItem__5S2KM.expertise .navbar_dropdownClosed__z7rz5,
+      .navbar_menuItem__5S2KM.expertise
+        .navbar_dropdownMenuHorizontalColumns__YtFDh {
+        display: flex !important;
+      }
+
+      /* Make each top-level <li> inside the mega menu act like a column */
+      .navbar_menuItem__5S2KM.expertise .expertiseDropdown > li {
+        display: flex !important;
+        flex-direction: column !important;
+        flex: 1 1 0 !important; /* share available width */
+        min-width: 160px !important; /* avoid collapse */
+        max-width: 33% !important; /* 3 columns */
+        box-sizing: border-box !important;
+        position: relative !important;
+      }
+
+      /* Titles in each column */
+      .navbar_menuItem__5S2KM.expertise
+        .expertiseDropdown
+        > li
+        > .navbar_categoryTitle__RnbNN {
+        margin-bottom: 0.2rem !important;
+      }
+
+      /* Reset nested lists so they flow inside columns (no absolute) */
+      .navbar_menuItem__5S2KM.expertise .expertiseDropdown > li ul,
+      .navbar_menuItem__5S2KM.expertise .expertiseDropdown > li ul li {
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style: none !important;
+        display: block !important;
+        position: static !important; /* IMPORTANT: cancel any absolute from original CSS */
+        box-sizing: border-box !important;
+      }
+
+      /* Link style inside mega menu columns */
+      .navbar_menuItem__5S2KM.expertise .expertiseDropdown a {
+        display: block !important;
+        padding: 0.7rem 0 !important;
+        color: inherit !important;
+        white-space: normal !important;
+      }
+
+      /* If original CSS set widths on inner elements, prevent overflow */
+      .navbar_menuItem__5S2KM.expertise .expertiseDropdown * {
+        max-width: 100% !important;
+        overflow: hidden !important;
+      }
+      .navbar_menuItem__5S2KM.expertise .expertiseDropdown .approachHome a {
+        padding: 2rem !important; /* Updated approach list item's spacing */
       }
     </style>
   </head>
@@ -371,7 +440,7 @@
                           Approach
                         </div>
                         <ul>
-                          <li>
+                          <li class="approachHome">
                             <a
                               class="link-card_container___CAfK"
                               href="approach.html"
