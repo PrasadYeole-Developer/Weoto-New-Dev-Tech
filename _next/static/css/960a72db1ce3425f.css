@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Decagram-Light;
+  src: local("Decagram Light"), local("Decagram-Light"),
+    url(../../../fonts/Decagram/Decagram-Light.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-LightItalic;
+  src: local("Decagram Light Italic"), local("Decagram-LightItalic"),
+    url(../../../fonts/Decagram/Decagram-LightItalic.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-Medium;
+  src: local("Decagram Medium"), local("Decagram-Medium"),
+    url(../../../fonts/Decagram/Decagram-Medium.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-MediumItalic;
+  src: local("Decagram Medium Italic"), local("Decagram-MediumItalic"),
+    url(../../../fonts/Decagram/Decagram-MediumItalic.otf) format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-Regular;
+  src: local("Decagram Regular"), local("Decagram-Regular"),
+    url(../../../fonts/Decagram/Decagram-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-RegularItalic;
+  src: local("Decagram Regular Italic"), local("Decagram-RegularItalic"),
+    url(../../../fonts/Decagram/Decagram-RegularItalic.otf) format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-SemiBold;
+  src: local("Decagram Semi Bold"), local("Decagram-SemiBold"),
+    url(../../../fonts/Decagram/Decagram-SemiBold.otf) format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Decagram-SemiBoldItalic;
+  src: local("Decagram Semi Bold Italic"), local("Decagram-SemiBoldItalic"),
+    url(../../../fonts/Decagram/Decagram-SemiBoldItalic.otf) format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: FKGrotesk-Regular;
+  src: local("FK Grotesk Regular"), local("FKGrotesk-Regular"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Regular.otf) format("opentype"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Regular.ttf) format("truetype"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Regular.woff) format("woff"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: FKGrotesk-Medium;
+  src: local("FK Grotesk Medium"), local("FKGrotesk-Medium"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Medium.otf) format("opentype"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Medium.ttf) format("truetype"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Medium.woff) format("woff"),
+    url(../../../fonts/FKGrotesk/FKGrotesk-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

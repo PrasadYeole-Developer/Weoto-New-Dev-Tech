@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+[data-scroll-container] {
+  min-height: 100vh;
+}
+
+/* Ensured dropdown parents are positioned relative */
+.navbar_menuItem__5S2KM {
+  position: relative;
+}
+
+/* Dropdown base style (all menus) */
+.navbar_menuItem__5S2KM ul:not(.expertiseDropdown) {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 2rem;
+  z-index: 1000;
+
+  /* hidden state */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show on hover (default dropdowns) */
+.navbar_menuItem__5S2KM:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Make sure the menu parent is the reference for absolute placement */
+.navbar_menuItem__5S2KM {
+  position: relative !important;
+  z-index: 1100; /* ensure parent sits above other page layers */
+}
+
+/* Force the expertise mega menu to render as a centered multi-column panel */
+.navbar_menuItem__5S2KM.expertise:hover .expertiseDropdown {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 2rem !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  transition: opacity 0.7s ease, transform 0.3s ease;
+
+  /* placement & sizing */
+  position: absolute !important;
+  top: calc(100% + 8px) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: min(1200px, 92vw) !important;
+  max-width: 1200px !important;
+  padding: 1.25rem 1.5rem !important;
+  border-radius: 8px !important;
+  background: #ffffff !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  z-index: 1200 !important;
+  box-sizing: border-box !important;
+  margin-top: -0.5rem !important;
+}
+
+/* Ensure any "closed" class from the original CSS cannot hide it */
+.navbar_menuItem__5S2KM.expertise .navbar_dropdownClosed__z7rz5,
+.navbar_menuItem__5S2KM.expertise .navbar_dropdownMenuHorizontalColumns__YtFDh {
+  display: flex !important;
+}
+
+/* Make each top-level <li> inside the mega menu act like a column */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown > li {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 0 !important; /* share available width */
+  min-width: 160px !important; /* avoid collapse */
+  max-width: 33% !important; /* 3 columns */
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+
+/* Titles in each column */
+.navbar_menuItem__5S2KM.expertise
+  .expertiseDropdown
+  > li
+  > .navbar_categoryTitle__RnbNN {
+  margin-bottom: 0.2rem !important;
+}
+
+/* Reset nested lists so they flow inside columns (no absolute) */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown > li ul,
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown > li ul li {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  display: block !important;
+  position: static !important; /* IMPORTANT: cancel any absolute from original CSS */
+  box-sizing: border-box !important;
+  background: none !important;
+  box-shadow: none;
+}
+
+/* Link style inside mega menu columns */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown a {
+  display: block !important;
+  padding: 0.8rem 0 !important;
+  color: inherit !important;
+  white-space: normal !important;
+}
+
+.navbar_menuItem__5S2KM.expertise
+  .expertiseDropdown
+  .link-card_container___CAfK {
+  box-shadow: none !important;
+  background: none !important;
+}
+
+/* If original CSS set widths on inner elements, prevent overflow */
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown * {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+.navbar_menuItem__5S2KM.expertise .expertiseDropdown .approachHome a {
+  padding: 2rem !important; /* Updated approach list item's spacing */
+}
+
+.scrollTitle {
+  display: none;
+}
+.navbar_logo__Serug h2 {
+  font-size: 2.5rem;
+}
+.footerLogo h2 {
+  font-size: 4.5rem;
+}
+
+.companies-container {
+  overflow: hidden;
+  width: 100%;
+  min-height: 100px;
+  padding: 3.5rem 1.5rem;
+  background-color: white;
+}
+
+.companies-marquee {
+  display: flex;
+  gap: 6rem;
+  width: max-content;
+}
+
+.companies-marquee img {
+  height: 3rem;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(1);
+  transition: filter 0.3s ease;
+}
+
+.companies-marquee img:hover {
+  filter: grayscale(0);
+}
+.featured-links_featuredLinksContainer__geNBe h6 {
+  display: none;
+}
+.home-contact-section_wrapper__c2_nE textarea {
+  resize: none;
+}
+.navbar_lumenaltaNavbar__TdKXO {
+  padding-top: 1.5rem;
+}
+/* When open */
+.navbar_hamburgerOpen {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+}
+.hamburgerSubMenuOpen {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+}
+.cursor {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+.newsroomText {
+  color: #020023 !important;
+  text-decoration: none !important;
+}
+.newsroomText h2 {
+  color: rgb(255, 255, 0);
+}
+
+.newsroomText path {
+  fill: currentColor !important;
+  stroke: currentColor !important;
+}
+
+@media (min-width: 771px) {
+  .featured-links_featuredLinksContainer__geNBe h6 {
+    display: block;
+  }
+  .scrollTitle {
+    display: block;
+    padding-top: 3rem;
+  }
+}
+@media (min-width: 389px) and (max-width: 770px) {
+  .heroH1Div h1 {
+    font-size: 4rem !important;
+  }
+}
+@media (max-width: 388px) {
+  .heroH1Div h1 {
+    font-size: 3rem !important;
+    padding-top: 3rem !important;
+  }
+}
