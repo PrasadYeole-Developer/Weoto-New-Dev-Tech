@@ -96,11 +96,15 @@
       href="../_next/static/css/7e2fa9e7834e0ca4.css"
       data-precedence="next"
     />
-    <link rel="stylesheet" href="style.css" />
-    
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
   </head>
   <body>
-    <div>
+    <div class="cursor"></div>
+    <div class="main" data-scroll-container>
       <a
         class="announcement-bar_link__AOGEV announcement-bar_lightBar__ukhrA"
         href="https://celebrating-25-years.lumenalta.com/"
@@ -139,19 +143,20 @@
           </svg></div
       ></a>
       <div>
-        <div class="navbar_navbarContainer__uZe0W navbar_stickyOn__pZ7K3">
+               <div class="navbar_navbarContainer__uZe0W navbar_stickyOn__pZ7K3">
           <nav class="navbar_lumenaltaNavbar__TdKXO">
             <div class="navbar_navbar__zyfrr">
               <div class="navbar_logo__Serug">
-                <a href="index.html" style="text-decoration: none"
-                  ><h2>WEOTO</h2></a
-                >
+                <a href="/index.html" style="text-decoration: none">
+                  <h2>WEOTO</h2>
+                </a>
               </div>
               <div class="navbar_menu__gTcHr">
                 <ul>
                   <li class="navbar_menuItem__5S2KM expertise">
                     <button class="navbar_dropdownButton__AH1Vg">
-                      Expertise<svg
+                      Expertise
+                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="8"
                         height="11"
@@ -162,105 +167,69 @@
                         <path d="M7.5 1L4 7.5L0.5 1H7.5Z" fill="black"></path>
                       </svg>
                     </button>
-                    <ul
-                      class="expertiseDropdown navbar_dropdownClosed__z7rz5 navbar_dropdownMenuHorizontalColumns__YtFDh"
-                    >
+                    <ul class="expertiseDropdown navbar_dropdownClosed__z7rz5 navbar_dropdownMenuHorizontalColumns__YtFDh">
                       <li>
-                        <div
-                          class="text_common__RQxF_ text_text-body-2__ecr5d text_color-default__YroBW navbar_categoryTitle__RnbNN crawlable-content"
-                        >
+                        <div class="text_common__RQxF_ text_text-body-2__ecr5d text_color-default__YroBW navbar_categoryTitle__RnbNN crawlable-content">
                           Services
                         </div>
                         <ul>
                           <li>
-                            <a href="services/ai-ml-llm.html"
-                              >AI, ML &amp; LLM</a
-                            >
+                            <a href="/services/ai-ml-llm.html">AI, ML &amp; LLM</a>
                           </li>
                           <li>
-                            <a href="services/cloud-infrastructure.html"
-                              >Cloud &amp; infrastructure modernization</a
-                            >
+                            <a href="/services/cloud-infrastructure.html">Cloud &amp; infrastructure modernization</a>
                           </li>
                           <li>
-                            <a href="services/data-services.html"
-                              >Data modernization</a
-                            >
+                            <a href="/services/data-services.html">Data modernization</a>
                           </li>
                           <li>
-                            <a href="services/mobile-app-development.html"
-                              >Platform &amp; application development</a
-                            >
+                            <a href="/services/mobile-app-development.html">Platform &amp; application development</a>
                           </li>
                           <li>
-                            <a href="services/tech-strategy-advisory.html"
-                              >Tech strategy &amp; advisory</a
-                            >
+                            <a href="/services/tech-strategy-advisory.html">Tech strategy &amp; advisory</a>
                           </li>
                           <li>
-                            <a href="services/ux-ui-design.html"
-                              >UX &amp; UI design</a
-                            >
+                            <a href="/services/ux-ui-design.html">UX &amp; UI design</a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <div
-                          class="text_common__RQxF_ text_text-body-2__ecr5d text_color-default__YroBW navbar_categoryTitle__RnbNN crawlable-content"
-                        >
+                        <div class="text_common__RQxF_ text_text-body-2__ecr5d text_color-default__YroBW navbar_categoryTitle__RnbNN crawlable-content">
                           Industries
                         </div>
                         <ul>
                           <li>
-                            <a href="industries/bfsi.html"
-                              >Financial services</a
-                            >
+                            <a href="/industries/bfsi.html">Financial services</a>
                           </li>
                           <li>
-                            <a href="industries/consumer-products.html"
-                              >Consumer</a
-                            >
+                            <a href="/industries/consumer-products.html">Consumer</a>
                           </li>
                           <li>
-                            <a href="industries/healthcare.html">Healthcare</a>
+                            <a href="/industries/healthcare.html">Healthcare</a>
                           </li>
                           <li>
-                            <a href="industries/private-equity.html"
-                              >Private equity</a
-                            >
+                            <a href="/industries/private-equity.html">Private equity</a>
                           </li>
                           <li>
-                            <a href="industries/tmt-sector.html"
-                              >Telecommunications, media &amp; technology</a
-                            >
+                            <a href="/industries/tmt-sector.html">Telecommunications, media &amp; technology</a>
                           </li>
                           <li>
-                            <a href="industries/transportation-logistics.html"
-                              >Transportation &amp; logistics</a
-                            >
+                            <a href="/industries/transportation-logistics.html">Transportation &amp; logistics</a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <div
-                          class="text_common__RQxF_ text_text-body-2__ecr5d text_color-default__YroBW navbar_categoryTitle__RnbNN crawlable-content"
-                        >
+                        <div class="text_common__RQxF_ text_text-body-2__ecr5d text_color-default__YroBW navbar_categoryTitle__RnbNN crawlable-content">
                           Approach
                         </div>
                         <ul>
                           <li class="approachHome">
-                            <a
-                              class="link-card_container___CAfK"
-                              href="approach.html"
-                              ><h6
-                                class="text_common__RQxF_ text_text-h6__fj__M text_color-default__YroBW crawlable-content"
-                              >
+                            <a class="link-card_container___CAfK" href="/approach.html">
+                              <h6 class="text_common__RQxF_ text_text-h6__fj__M text_color-default__YroBW crawlable-content">
                                 Our Approach
                               </h6>
-                              <div
-                                class="text_common__RQxF_ text_text-body-1__aRB9d text_color-default__YroBW link-card_description__VubEM crawlable-content"
-                              >
-                                Learn about Lumenalta’s unique approach
+                              <div class="text_common__RQxF_ text_text-body-1__aRB9d text_color-default__YroBW link-card_description__VubEM crawlable-content">
+                                Learn about Weoto’s unique approach
                               </div>
                               <svg
                                 width="1696"
@@ -285,19 +254,21 @@
                                 <path
                                   d="M1695.57 83.9936H1598.44L1549.88 0.462891L1524.58 14.9636L1573.15 98.4625L1524.58 181.993L1549.88 196.494L1598.44 112.963H1695.57V83.9936Z"
                                   fill="currentColor"
-                                ></path></svg
-                            ></a>
+                                ></path>
+                              </svg>
+                            </a>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li class="navbar_menuItem__5S2KM">
-                    <a href="case-studies.html">Case studies</a>
+                    <a href="/case-studies.html">Case studies</a>
                   </li>
                   <li class="navbar_menuItem__5S2KM">
                     <button class="navbar_dropdownButton__AH1Vg">
-                      About<svg
+                      About
+                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="8"
                         height="11"
@@ -308,17 +279,16 @@
                         <path d="M7.5 1L4 7.5L0.5 1H7.5Z" fill="black"></path>
                       </svg>
                     </button>
-                    <ul
-                      class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenu__Jc3qz"
-                    >
-                      <li><a href="about.html">About us</a></li>
-                      <li><a href="leadership.html">Leadership</a></li>
-                      <li><a href="newsroom.html">Newsroom</a></li>
+                    <ul class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenu__Jc3qz">
+                      <li><a href="/about.html">About us</a></li>
+                      <li><a href="/leadership.html">Leadership</a></li>
+                      <li><a href="/newsroom.html">Newsroom</a></li>
                     </ul>
                   </li>
                   <li class="navbar_menuItem__5S2KM">
                     <button class="navbar_dropdownButton__AH1Vg">
-                      Insights<svg
+                      Insights
+                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="8"
                         height="11"
@@ -329,16 +299,15 @@
                         <path d="M7.5 1L4 7.5L0.5 1H7.5Z" fill="black"></path>
                       </svg>
                     </button>
-                    <ul
-                      class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenu__Jc3qz"
-                    >
-                      <li><a href="insights-hub.html">Insights Hub</a></li>
-                      <li><a href="labs.html">Lumenalta Labs</a></li>
+                    <ul class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenu__Jc3qz">
+                      <li><a href="/insights-hub.html">Insights Hub</a></li>
+                      <li><a href="/labs.html">Weoto Labs</a></li>
                     </ul>
                   </li>
                   <li class="navbar_menuItem__5S2KM">
                     <button class="navbar_dropdownButton__AH1Vg">
-                      Careers<svg
+                      Careers
+                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="8"
                         height="11"
@@ -349,15 +318,13 @@
                         <path d="M7.5 1L4 7.5L0.5 1H7.5Z" fill="black"></path>
                       </svg>
                     </button>
-                    <ul
-                      class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenu__Jc3qz"
-                    >
-                      <li><a href="careers.html">Jobs</a></li>
-                      <li><a href="careers/culture.html">Culture</a></li>
+                    <ul class="navbar_dropdownClosed__z7rz5 navbar_dropdownMenu__Jc3qz">
+                      <li><a href="/careers.html">Jobs</a></li>
+                      <li><a href="/careers/culture.html">Culture</a></li>
                     </ul>
                   </li>
                   <li class="navbar_menuItem__5S2KM">
-                    <a href="contact.html" style="text-decoration: none">
+                    <a href="/contact.html" style="text-decoration: none">
                       <button
                         id="contact-us-navbar-button"
                         class="button_button__zuVOf button_button-secondary___2Roj navbar_contactUsButton__yU_qe"
@@ -401,125 +368,133 @@
           </nav>
         </div>
         <div
-          id="hamburger-main-menu"
-          data-lenis-prevent="true"
-          class="navbar_hamburgerOptions__MXkaA navbar_hamburgerClosed__VETQ2"
-        >
-          <div class="navbar_hamburgerHeader__jlidU">
-            <div class="navbar_hamburgerClose__0olZL">
-              <svg
-                width="16"
-                height="17"
-                viewBox="0 0 16 17"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="navbar_closeIcon__EhylG"
-              >
-                <g id="close">
-                  <g id="close-group">
-                    <line
-                      id="bottom-line"
-                      x1="1.32581"
-                      y1="14.5858"
-                      x2="14.9116"
-                      y2="1.00002"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    ></line>
-                    <line
-                      id="top-line"
-                      x1="1.41421"
-                      y1="1"
-                      x2="15"
-                      y2="14.5858"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    ></line>
-                  </g>
+        id="hamburger-main-menu"
+        data-lenis-prevent="true"
+        class="navbar_hamburgerOptions__MXkaA navbar_hamburgerClosed__VETQ2"
+      >
+        <div class="navbar_hamburgerHeader__jlidU">
+          <div class="navbar_hamburgerClose__0olZL">
+            <svg
+              width="16"
+              height="17"
+              viewBox="0 0 16 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="navbar_closeIcon__EhylG"
+            >
+              <g id="close">
+                <g id="close-group">
+                  <line
+                    id="bottom-line"
+                    x1="1.32581"
+                    y1="14.5858"
+                    x2="14.9116"
+                    y2="1.00002"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></line>
+                  <line
+                    id="top-line"
+                    x1="1.41421"
+                    y1="1"
+                    x2="15"
+                    y2="14.5858"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></line>
                 </g>
-              </svg>
-            </div>
+              </g>
+            </svg>
           </div>
-          <div class="navbar_hamburgerMainMenu__xIyeU">
-            <div class="navbar_hamburgerLinksTierOne__VJRUP">
-              <div
-                class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+        </div>
+        <div class="navbar_hamburgerMainMenu__xIyeU">
+          <div class="navbar_hamburgerLinksTierOne__VJRUP">
+            <a class="navbar_menuItem__5S2KM" href="approach.html"
+              >Expertise</a
+            >
+            <!-- <div
+              class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+            >
+              Expertise<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 9 17"
               >
-                Expertise<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 9 17"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    d="M.666 15.5l7-7-7-7"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <div class="navbar_hamburgerLinksTierOne__VJRUP">
-              <a class="navbar_menuItem__5S2KM" href="../case-studies.html"
-                >Case studies</a
+                <path
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  d="M.666 15.5l7-7-7-7"
+                ></path>
+              </svg>
+            </div> -->
+          </div>
+          <div class="navbar_hamburgerLinksTierOne__VJRUP">
+            <a class="navbar_menuItem__5S2KM" href="case-studies.html"
+              >Case studies</a
+            >
+          </div>
+          <div class="navbar_hamburgerLinksTierOne__VJRUP">
+            <a class="navbar_menuItem__5S2KM" href="about.html">About</a>
+            <!-- <div
+              class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+            >
+              About<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 9 17"
               >
-            </div>
-            <div class="navbar_hamburgerLinksTierOne__VJRUP">
-              <div
-                class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+                <path
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  d="M.666 15.5l7-7-7-7"
+                ></path>
+              </svg>
+            </div> -->
+          </div>
+          <div class="navbar_hamburgerLinksTierOne__VJRUP">
+            <a class="navbar_menuItem__5S2KM" href="insights.html"
+              >Insights</a
+            >
+            <!-- <div
+              class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+            >
+              Insights<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 9 17"
               >
-                About<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 9 17"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    d="M.666 15.5l7-7-7-7"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <div class="navbar_hamburgerLinksTierOne__VJRUP">
-              <div
-                class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+                <path
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  d="M.666 15.5l7-7-7-7"
+                ></path>
+              </svg>
+            </div> -->
+          </div>
+          <div class="navbar_hamburgerLinksTierOne__VJRUP">
+            <a class="navbar_menuItem__5S2KM" href="careers.html">Careers</a>
+            <!-- <div
+              class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
+            >
+              Careers<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 9 17"
               >
-                Insights<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 9 17"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    d="M.666 15.5l7-7-7-7"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <div class="navbar_hamburgerLinksTierOne__VJRUP">
-              <div
-                class="navbar_menuItem__5S2KM navbar_hamburgerDropdown__l8ZgB"
-              >
-                Careers<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 9 17"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    d="M.666 15.5l7-7-7-7"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <div class="navbar_hamburgerLinksTierOne__VJRUP">
+                <path
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  d="M.666 15.5l7-7-7-7"
+                ></path>
+              </svg>
+            </div> -->
+          </div>
+          <div class="navbar_hamburgerLinksTierOne__VJRUP">
+            <a href="contact.html">
               <button
                 id="mobile-nav-contact-us"
                 class="button_button__zuVOf button_button-tertiary__CgexW"
                 type="button"
-                data-href="/contact"
               >
                 Contact us
                 <div class="button_icon__z6meo">
@@ -538,128 +513,127 @@
                   </svg>
                 </div>
               </button>
-            </div>
+            </a>
           </div>
-          <div class="navbar_logoIconSpinnerContainer__1Dwkz">
+        </div>
+        <div class="navbar_logoIconSpinnerContainer__1Dwkz">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 64 61"
+            class="navbar_logoIconSpinner__d2OjK"
+          >
+            <path
+              fill="currentColor"
+              d="M42.818 40.13l-7.67 4.464 9.016 15.743 7.67-4.464-9.016-15.743zM44.168.004l-9.016 15.743 7.669 4.464 9.016-15.743-7.67-4.464zM18.031 25.712H0v8.928h18.031v-8.928z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M64 25.713H34.554L19.832 0l-7.668 4.464 14.723 25.702L12.164 55.88l7.668 4.464L34.554 34.63H64v-8.917z"
+            ></path>
+          </svg>
+        </div>
+        <img
+          id="navbar-background-image-submenu"
+          alt="placeholder"
+          fetchPriority="high"
+          decoding="async"
+          data-nimg="fill"
+          class="navbar_backgroundImage__2LiNx"
+          style="
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            color: transparent;
+          "
+          sizes="100vw"
+          src="_next/bg-primary0192.jpg"
+        />
+      </div>
+      <div
+        data-lenis-prevent="true"
+        id="hamburger-sub-menu"
+        class="hamburger-menu_hamburgerSubMenu__iZsIz"
+      >
+        <div
+          class="navbar_hamburgerHeader__jlidU navbar_inDetailPage__b5U5b hamburger-menu_headerBorder__CoC5F"
+        >
+          <div class="navbar_hamburgerNavigateBack__Emvuz">
             <svg
               xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="21"
+              viewBox="0 0 16 21"
               fill="none"
-              viewBox="0 0 64 61"
-              class="navbar_logoIconSpinner__d2OjK"
             >
               <path
-                fill="currentColor"
-                d="M42.818 40.13l-7.67 4.464 9.016 15.743 7.67-4.464-9.016-15.743zM44.168.004l-9.016 15.743 7.669 4.464 9.016-15.743-7.67-4.464zM18.031 25.712H0v8.928h18.031v-8.928z"
-              ></path>
-              <path
-                fill="currentColor"
-                d="M64 25.713H34.554L19.832 0l-7.668 4.464 14.723 25.702L12.164 55.88l7.668 4.464L34.554 34.63H64v-8.917z"
+                d="M11 17L4.10344 9.99622L11 3.00662"
+                stroke-miterlimit="10"
               ></path>
             </svg>
           </div>
-          <img
-            id="navbar-background-image-submenu"
-            alt="placeholder"
-            fetchPriority="high"
-            decoding="async"
-            data-nimg="fill"
-            class="navbar_backgroundImage__2LiNx"
-            style="
-              position: absolute;
-              height: 100%;
-              width: 100%;
-              left: 0;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              color: transparent;
-            "
-            sizes="100vw"
-            
-            src="../_next/bg-primary0192.jpg"
-          />
-        </div>
-        <div
-          data-lenis-prevent="true"
-          id="hamburger-sub-menu"
-          class="hamburger-menu_hamburgerSubMenu__iZsIz"
-        >
-          <div
-            class="navbar_hamburgerHeader__jlidU navbar_inDetailPage__b5U5b hamburger-menu_headerBorder__CoC5F"
-          >
-            <div class="navbar_hamburgerNavigateBack__Emvuz">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="21"
-                viewBox="0 0 16 21"
-                fill="none"
-              >
-                <path
-                  d="M11 17L4.10344 9.99622L11 3.00662"
-                  stroke-miterlimit="10"
-                ></path>
-              </svg>
-            </div>
-            <div class="navbar_hamburgerClose__0olZL">
-              <svg
-                width="16"
-                height="17"
-                viewBox="0 0 16 17"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="navbar_closeIcon__EhylG"
-              >
-                <g id="close">
-                  <g id="close-group">
-                    <line
-                      id="bottom-line"
-                      x1="1.32581"
-                      y1="14.5858"
-                      x2="14.9116"
-                      y2="1.00002"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    ></line>
-                    <line
-                      id="top-line"
-                      x1="1.41421"
-                      y1="1"
-                      x2="15"
-                      y2="14.5858"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    ></line>
-                  </g>
+          <div class="navbar_hamburgerClose__0olZL">
+            <svg
+              width="16"
+              height="17"
+              viewBox="0 0 16 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="navbar_closeIcon__EhylG"
+            >
+              <g id="close">
+                <g id="close-group">
+                  <line
+                    id="bottom-line"
+                    x1="1.32581"
+                    y1="14.5858"
+                    x2="14.9116"
+                    y2="1.00002"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></line>
+                  <line
+                    id="top-line"
+                    x1="1.41421"
+                    y1="1"
+                    x2="15"
+                    y2="14.5858"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></line>
                 </g>
-              </svg>
-            </div>
+              </g>
+            </svg>
           </div>
-          <div class="hamburger-menu_menuList__4fLji">
-            <div class="hamburger-menu_onlyLinks__XFbKz"><ul></ul></div>
-          </div>
-          <img
-            id="navbar-background-image"
-            alt="placeholder"
-            fetchPriority="high"
-            decoding="async"
-            data-nimg="fill"
-            class="navbar_backgroundImage__2LiNx"
-            style="
-              position: absolute;
-              height: 100%;
-              width: 100%;
-              left: 0;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              color: transparent;
-            "
-            sizes="100vw"
-            
-            src="../_next/bg-primary0192.jpg"
-          />
         </div>
+        <div class="hamburger-menu_menuList__4fLji">
+          <div class="hamburger-menu_onlyLinks__XFbKz"><ul></ul></div>
+        </div>
+        <img
+          id="navbar-background-image"
+          alt="placeholder"
+          fetchPriority="high"
+          decoding="async"
+          data-nimg="fill"
+          class="navbar_backgroundImage__2LiNx"
+          style="
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            color: transparent;
+          "
+          sizes="100vw"
+          src="_next/bg-primary0192.jpg"
+        />
+      </div>
       </div>
       <main class="page_main__Ebf93">
         <div>
@@ -798,7 +772,7 @@
                       class="case-study_caseStudyParagraph__hIVXq crawlable-content"
                     >
                       To bring their vision to life, Peoplehood built its first
-                      location in NYC and partnered with Lumenalta (formerly
+                      location in NYC and partnered with Weoto (formerly
                       Clevertech) to build a custom video platform.
                     </div>
                     <div
@@ -1545,6 +1519,13 @@
       </div>
     </div>
   
-   
-  </body>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+    integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="../script.js"></script>
+</body>
 </html>
