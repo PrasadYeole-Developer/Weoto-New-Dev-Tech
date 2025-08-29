@@ -198,6 +198,7 @@ body {
   visibility: visible;
 }
 .cursor {
+  display: none;
   width: 2.5rem;
   height: 2.5rem;
   border: 1px solid white;
@@ -239,6 +240,23 @@ body {
 @media (max-width: 388px) {
   .heroH1Div h1 {
     font-size: 3rem !important;
+    padding-top: 3rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .cursor {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .aboutLeadership {
+    display: none;
+  }
+}
+@media (max-width: 374px) {
+  .leaders-display_leadersContainer__8aZcf
+    .leaders-display_leadersGrid__iBrZC
+    #leader-0 {
     padding-top: 3rem !important;
   }
 }

@@ -1850,7 +1850,7 @@
 }
 @media only screen and (max-width: calc(768px - 1px)) {
   .cta-section_container__ADwHj .cta-section_description__xRR69 {
-    padding-bottom: var(--space-s);
+    padding-bottom: var(--space-l);
   }
 }
 .cta-section_container__ADwHj .cta-section_icon-dark__m_Ahg {
