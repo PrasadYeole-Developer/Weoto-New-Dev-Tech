@@ -172,7 +172,7 @@
     .hero-header-carousel_slide__qdCc7
     .hero-header-carousel_title__FlZV0:hover
     ~ .hero-header-carousel_overlay__Z0GRO {
-    background: linear-gradient(252deg, rgba(2, 0, 35, 0) 65%, #020023);
+    background: linear-gradient(252deg, rgba(2, 0, 35, 0) 65%, #08183a);
   }
 }
 .hero-header-carousel_container__GPZMh
@@ -192,8 +192,9 @@
   background: linear-gradient(
     252deg,
     rgba(2, 0, 35, 0) -18.03%,
-    #020023 86.97%
+    #08183a 86.97%
   );
+  // #020023 Previous overlay bg-color
   transition: background 1s ease-in-out;
   z-index: 1;
 }

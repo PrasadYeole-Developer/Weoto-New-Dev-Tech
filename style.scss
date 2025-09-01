@@ -155,8 +155,7 @@ body {
 .companies-container {
   overflow: hidden;
   width: 100%;
-  min-height: 100px;
-  padding: 3.5rem 1.5rem;
+  padding: 1rem 0;
   background-color: white;
 }
 
@@ -167,8 +166,8 @@ body {
 }
 
 .companies-marquee img {
-  height: 3rem;
-  width: auto;
+  height: 9rem;
+  width: 9rem;
   object-fit: contain;
   filter: grayscale(1);
   transition: filter 0.3s ease;
@@ -217,10 +216,16 @@ body {
 .newsroomText h2 {
   color: rgb(255, 255, 0);
 }
-
 .newsroomText path {
   fill: currentColor !important;
   stroke: currentColor !important;
+}
+
+.approachHome img {
+  margin-top: -1.5rem;
+  margin-bottom: -2.5rem;
+  position: relative;
+  right: 15%;
 }
 
 @media (min-width: 771px) {
@@ -251,6 +256,10 @@ body {
 @media (max-width: 768px) {
   .aboutLeadership {
     display: none;
+  }
+  .companies-marquee img {
+    height: 6rem;
+    width: 6rem;
   }
 }
 @media (max-width: 374px) {
