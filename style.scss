@@ -220,12 +220,74 @@ body {
   fill: currentColor !important;
   stroke: currentColor !important;
 }
-
 .approachHome img {
   margin-top: -1.5rem;
   margin-bottom: -2.5rem;
   position: relative;
   right: 15%;
+}
+.weotoSVGIndustriesHome {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    left: -75%;
+    bottom: 5%;
+  }
+}
+.weotoSvgTechHome img {
+  padding-right: 2rem;
+}
+.large-cta_largeCtaBackground__4M0Tl {
+  position: relative;
+}
+.large-cta_largeCtaIcon__rM62E img {
+  width: 100%;
+  height: 50rem;
+  position: absolute;
+  right: -35%;
+  bottom: -20%;
+}
+.homeContact img {
+  width: 100%;
+  height: 40rem;
+  padding-top: 12rem;
+}
+.approachRevSvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 80%;
+  }
+}
+.approachSvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 80%;
+  }
+}
+.casestudiesTOPSvgContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    top: 30%;
+    left: 25%;
+  }
+}
+.newsroomSvgContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 32rem;
+    top: 15%;
+    left: 25%;
+  }
 }
 
 @media (min-width: 771px) {
@@ -260,6 +322,20 @@ body {
   .companies-marquee img {
     height: 6rem;
     width: 6rem;
+  }
+}
+@media (max-width: 767px) {
+  .homeContact img {
+    display: none;
+  }
+  .newsroomSvgContainer img {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .newsroomSvgContainer img {
+    top: 25%;
+    height: 22rem;
   }
 }
 @media (max-width: 374px) {
