@@ -289,6 +289,78 @@ body {
     left: 25%;
   }
 }
+.aboutSvgContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 32rem;
+    top: 20%;
+    left: 25%;
+  }
+}
+.aboutSVG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 80% !important;
+  }
+}
+.leadershipSVGContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 32rem;
+    top: 20%;
+    left: 25%;
+  }
+}
+.contactSVGContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 42rem;
+    top: 15%;
+    left: 5%;
+  }
+}
+.NotFoundMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 20rem;
+  }
+}
+.labSVGContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 28rem;
+    top: 50%;
+    left: -15%;
+  }
+}
+.insightsSVGContainer {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 38rem;
+    top: 20%;
+    left: 25%;
+  }
+}
+.insightsHubSvgContainer {
+  img {
+    width: 100%;
+    height: 18rem;
+  }
+}
 
 @media (min-width: 771px) {
   .featured-links_featuredLinksContainer__geNBe h6 {
@@ -323,6 +395,20 @@ body {
     height: 6rem;
     width: 6rem;
   }
+  .aboutSvgContainer img {
+    display: none;
+  }
+  .contactSVGContainer {
+    h1 {
+      padding-top: 3rem;
+    }
+  }
+  .labSVGContainer img {
+    display: none;
+  }
+  .insightsSVGContainer img {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .homeContact img {
@@ -331,10 +417,42 @@ body {
   .newsroomSvgContainer img {
     display: none;
   }
+  .leadershipSVGContainer img {
+    top: 50%;
+    left: 27%;
+    height: 16rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .newsroomSvgContainer img {
     top: 25%;
+    height: 22rem;
+  }
+  .labSVGContainer img {
+    height: 18rem !important;
+    top: 60% !important;
+    left: -15% !important;
+  }
+  .insightsSVGContainer img {
+    height: 32rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .aboutSvgContainer img {
+    top: 30%;
+    left: 30%;
+    height: 22rem;
+  }
+  .labSVGContainer img {
+    height: 22rem;
+    top: 55%;
+    left: -15%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .leadershipSVGContainer img {
+    top: 20%;
+    left: 27%;
     height: 22rem;
   }
 }
