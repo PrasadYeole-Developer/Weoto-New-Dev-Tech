@@ -475,7 +475,7 @@ h3 {
   background-color: #020023;
 }
 #segment-consent-manager-container .css-1opfoum button:first-child:hover {
-  background-color: #6c51f5;
+  background-color: #004289;
   background-image: none;
 }
 #segment-consent-manager-container .css-1opfoum button:last-child {
@@ -524,7 +524,7 @@ h3 {
   margin-right: 8px;
 }
 .css-rits9q .css-1uzjr4x:hover {
-  background-color: #6c51f5;
+  background-color: #004289;
   background-image: none;
 }
 .css-rits9q .css-spro1y {
@@ -553,7 +553,7 @@ h3 {
   margin-right: 8px;
 }
 .css-rits9q .css-spro1y:hover {
-  background-color: #6c51f5;
+  background-color: #004289;
   background-image: none;
 }
 :root {
@@ -622,7 +622,7 @@ h3 {
 }
 .splide__pagination__page.is-active {
   transform: unset !important;
-  border-bottom: 2px solid #6c51f5 !important;
+  border-bottom: 2px solid #004289 !important;
 }
 .smooth-scrollbar {
   width: 100%;
@@ -1121,8 +1121,8 @@ h3 {
   cursor: pointer;
 }
 .purpleOnHover:not(:disabled):hover {
-  background-color: #6c51f5 !important;
-  border-color: #6c51f5 !important;
+  background-color: #004289 !important;
+  border-color: #004289 !important;
 }
 .whiteOnHover {
   cursor: pointer;

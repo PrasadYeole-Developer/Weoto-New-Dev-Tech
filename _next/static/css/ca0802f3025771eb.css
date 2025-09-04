@@ -7,7 +7,7 @@
   }
 }
 .open-roles-block_openPositions__uOqGR {
-  background-color: #6c51f5;
+  background-color: #004289;
   position: relative;
   padding: var(--space-4xl) 0;
   overflow: hidden;
@@ -319,7 +319,7 @@
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  border: 1px solid #6c51f5;
+  border: 1px solid #004289;
   background: rgba(108, 81, 245, 0.188);
 }
 .open-roles_container__chg5S
@@ -426,7 +426,7 @@
   .open-roles_text___Wg3k
   .open-roles_skillsContainer__lstli
   .open-roles_skill__eWQew.open-roles_active__J1otB {
-  border: 1px solid #6c51f5;
+  border: 1px solid #004289;
   background: rgba(108, 81, 245, 0.188);
 }
 .open-roles_container__chg5S
@@ -759,9 +759,9 @@
 }
 .accordion_accordionItem__RfWcj .accordion_description__Bebxg a:hover {
   cursor: pointer;
-  color: #6c51f5;
-  -webkit-text-decoration-color: #6c51f5;
-  text-decoration-color: #6c51f5;
+  color: #004289;
+  -webkit-text-decoration-color: #004289;
+  text-decoration-color: #004289;
   transition: color 0.3s ease-in;
 }
 .accordion_accordionItem__RfWcj .accordion_accordionIcon__n7zuu {
@@ -1121,8 +1121,8 @@
   .large-case-study-preview-block_visitCaseStudyButton__GEime:hover:not(
     :disabled
   ):hover {
-  background: #6c51f5;
-  border-color: #6c51f5;
+  background: #004289;
+  border-color: #004289;
   color: #fff;
 }
 .large-case-study-preview-block_radicalSection__18S2E
@@ -1180,7 +1180,7 @@
   overflow-y: auto;
 }
 .benefits_benefit__Vll0h .benefits_icon__NbXVZ {
-  stroke: #6c51f5;
+  stroke: #004289;
 }
 .benefits_benefit__Vll0h .benefits_benefitIcon__aOllu {
   width: 80px;
@@ -1224,7 +1224,7 @@
 }
 .benefits_benefit__Vll0h:hover {
   transition: background-color 0.3s ease-in-out;
-  background: #6c51f5;
+  background: #004289;
 }
 .benefits_benefit__Vll0h:hover .benefits_icon__NbXVZ {
   filter: brightness(210%);
@@ -1251,7 +1251,7 @@
     justify-content: flex-start;
   }
   .benefits_benefit__Vll0h .benefits_icon__NbXVZ {
-    stroke: #6c51f5;
+    stroke: #004289;
   }
   .benefits_benefit__Vll0h
     .benefits_benefitText__RyZSA
@@ -1273,7 +1273,7 @@
     background: hsla(0, 0%, 100%, 0.08);
   }
   .benefits_benefit__Vll0h:hover .benefits_icon__NbXVZ {
-    stroke: #6c51f5;
+    stroke: #004289;
   }
   .benefits_benefit__Vll0h .benefits_icon__NbXVZ {
     width: auto;
@@ -1464,7 +1464,7 @@
 }
 .team-member-carousel_carouselContainerDark__S_U9K {
   display: flex;
-  background-color: #6c51f5;
+  background-color: #004289;
   padding-top: var(--space-3xl);
 }
 @media only screen and (max-width: calc(1280px - 1px)) {

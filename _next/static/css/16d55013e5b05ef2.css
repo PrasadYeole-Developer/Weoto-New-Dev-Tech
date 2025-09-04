@@ -16,7 +16,7 @@
   position: relative;
   z-index: 2;
   width: 100%;
-}
+} 
 @media only screen and (max-width: calc(768px - 1px)) {
   .verify_formWrapper__siv_m {
     margin: 0 auto;
@@ -87,7 +87,7 @@
 }
 .verify_inputGroup__LQhkl input:focus {
   outline: none;
-  border-color: #6c51f5;
+  border-color: #004289;
 }
 .verify_error__hP_gn {
   background: #f8d7da;
@@ -110,7 +110,7 @@
 .verify_changeEmail__8p7bh {
   background: none;
   border: none;
-  color: #6c51f5;
+  color: #004289;
   font-size: 0.875rem;
   cursor: pointer;
   padding: 0;
@@ -603,8 +603,8 @@
   opacity: 0.6;
 }
 .field_field__Kb8ha:focus {
-  outline: #6c51f5;
-  border-color: #6c51f5;
+  outline: #004289;
+  border-color: #004289;
 }
 @media only screen and (max-width: 768px) {
   .field_field__Kb8ha {
@@ -843,7 +843,7 @@
   position: relative;
 }
 .select_control__IBprZ.select_focused__bqe_w {
-  border: 1px solid #6c51f5 !important;
+  border: 1px solid #004289 !important;
   box-shadow: none;
 }
 .select_control__IBprZ.select_disabled__RRaeu {
@@ -855,7 +855,7 @@
   width: 100%;
 }
 .select_option__86jdU.select_isSelected__BHhue {
-  background-color: #6c51f5 !important;
+  background-color: #004289 !important;
   color: #fff !important;
 }
 .select_option__86jdU.select_isSelectedDisabled__QJEsC {
@@ -952,7 +952,7 @@
   -webkit-font-smoothing: antialiased;
 }
 .field-label_label__wuKzW .field-label_required___4fWn {
-  color: #6c51f5;
+  color: #004289;
 }
 .field-label_labelDisabled__xMwYs {
   color: #a1a1c6;
@@ -1470,8 +1470,8 @@
 }
 .contact-form_contactForm__pNuOy
   .contact-form_submitButton__WvV8U:hover:not(:disabled):hover {
-  background: #6c51f5;
-  border-color: #6c51f5;
+  background: #004289;
+  border-color: #004289;
   color: #fff;
 }
 .contact-form_contactForm__pNuOy
@@ -1500,7 +1500,7 @@
   .contact-form_submitMessage__DD2SA {
   font-size: var(--step-0);
   margin-bottom: 0;
-  color: #6c51f5;
+  color: #004289;
   padding-right: 20px;
 }
 .contact-form_contactForm__pNuOy
@@ -1713,7 +1713,7 @@
 }
 .author-info_textContainer__v9cz2 .author-info_name__aGDyT {
   font-size: var(--step-0);
-  color: #6c51f5;
+  color: #004289;
   font-weight: 600;
 }
 .author-info_textContainer__v9cz2 .author-info_role__D6JSo {
@@ -3141,7 +3141,7 @@
   text-align: start;
 }
 .link-card_container___CAfK .link-card_icon__hlnK4 {
-  color: #6c51f5;
+  color: #004289;
   transform: translateX(-60%) scale(2.2);
   width: 100%;
   height: auto;
@@ -3365,7 +3365,7 @@
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: var(--step-1);
-  color: #6c51f5;
+  color: #004289;
 }
 .testimonials-carousel_testimonialContainer__aAvIe
   .testimonials-carousel_testimonialAuthorPosition___Ncyk {
@@ -3502,8 +3502,8 @@
   .three-content-block_purposeHeader__cSkpo
   .three-content-block_titleContainer__Bu627
   button:hover:not(:disabled):hover {
-  background: #6c51f5;
-  border-color: #6c51f5;
+  background: #004289;
+  border-color: #004289;
   color: #fff;
 }
 .three-content-block_purposeContainer__C240w
@@ -3681,7 +3681,7 @@
   .three-content-block_highlight__il23n.three-content-block_largeIcons__v4vP0
   .three-content-block_titleContainer__Bu627
   .three-content-block_title__EonR4 {
-  color: #6c51f5;
+  color: #004289;
   font-size: var(--step-0);
   font-family: FKGrotesk-Medium, sans-serif;
   font-weight: 500;
@@ -3754,7 +3754,7 @@
 .three-content-block_purposeContainer__C240w
   .three-content-block_highlightList__p_qOU
   .three-content-block_highlightBrightBorder__wSiv8 {
-  border: 1px solid #6c51f5;
+  border: 1px solid #004289;
 }
 .three-content-block_purposeContainer__C240w
   .three-content-block_highlightList__p_qOU
@@ -3769,18 +3769,18 @@
 .three-content-block_purposeContainer__C240w
   .three-content-block_highlightList__p_qOU
   .three-content-block_highlightBrightBorder__wSiv8:last-child {
-  border-right: 1px solid #6c51f5;
+  border-right: 1px solid #004289;
 }
 @media only screen and (max-width: calc(768px - 1px)) {
   .three-content-block_purposeContainer__C240w
     .three-content-block_highlightList__p_qOU
     .three-content-block_highlightBrightBorder__wSiv8 {
-    border: 1px solid #6c51f5;
+    border: 1px solid #004289;
   }
   .three-content-block_purposeContainer__C240w
     .three-content-block_highlightList__p_qOU
     .three-content-block_highlightBrightBorder__wSiv8:nth-child(odd) {
-    border-right: 1px solid #6c51f5;
+    border-right: 1px solid #004289;
   }
   .three-content-block_purposeContainer__C240w
     .three-content-block_highlightList__p_qOU

@@ -639,7 +639,7 @@
   }
 }
 .whitepaper-article_highlight__QUE68 {
-  color: #6c51f5;
+  color: #004289;
   font-size: var(--step-1);
   font-family: FKGrotesk-Regular, sans-serif;
   font-weight: 400;
@@ -1067,7 +1067,7 @@
 }
 @media only screen and (max-width: calc(768px - 1px)) {
   .whitepaper-article_bottomContent___n1Ay {
-    background-color: #6c51f5;
+    background-color: #004289;
     padding-bottom: var(--space-2xl) !important;
   }
 }
@@ -1881,7 +1881,7 @@
   font-family: FKGrotesk-Medium, sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  color: #6c51f5;
+  color: #004289;
   margin-bottom: var(--space-xs);
   line-height: 3rem;
   white-space: nowrap;

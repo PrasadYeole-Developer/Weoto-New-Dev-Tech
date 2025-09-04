@@ -30,7 +30,7 @@
   position: fixed;
   right: 0;
   top: 0;
-  background: #6c51f5;
+  background: #004289;
   z-index: 120;
   height: 100vh;
   width: 100%;
@@ -80,7 +80,7 @@
   background: #fff;
 }
 .link-tree_container__f1E1D ul li:hover * {
-  color: #6c51f5;
+  color: #004289;
 }
 .link-tree_container__f1E1D a {
   text-decoration: none;
@@ -154,7 +154,7 @@
   stroke: #fff;
 }
 .announcement-bar_announcementBar__18lgU {
-  background: #6c51f5;
+  background: #004289;
   font-family: Decagram-Regular, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -446,7 +446,7 @@
   color: #fff;
 }
 .text_color-purple__lMppm {
-  color: #6c51f5;
+  color: #004289;
 }
 .text_color-error__DmbEu {
   color: #d51111;
@@ -481,7 +481,7 @@
   transform: translateX(-50%);
   width: 100%;
   height: 10px;
-  background-color: #6c51f5;
+  background-color: #004289;
 }
 @media only screen and (max-width: calc(768px - 1px)) {
   .text_colorHighlightPurple__QfQ2V:before {
@@ -545,7 +545,7 @@
   align-items: center;
 }
 .hired-complete_sidebar__CeEGD .hired-complete_heroSidebarPosition__O0WbN {
-  color: #6c51f5;
+  color: #004289;
   grid-column: 7 / span 6;
   grid-row: 2 / span 1;
   position: absolute;
@@ -943,7 +943,7 @@
   font-family: Decagram-Medium, sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  color: #6c51f5;
+  color: #004289;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -1108,10 +1108,10 @@
   padding: 0 8px;
   border-radius: 12px;
   background-color: rgba(108, 81, 245, 0.188);
-  color: #6c51f5;
+  color: #004289;
   font-weight: 500;
   font-size: 14px;
-  border: 1px solid #6c51f5;
+  border: 1px solid #004289;
 }
 .consolidated-skills-tree_subcategoriesGrid__HuSZu {
   display: grid;
@@ -1178,8 +1178,8 @@
 .consolidated-skills-tree_checkboxInput__8bZZL:checked
   + .consolidated-skills-tree_checkboxLabel__J_IUc
   .consolidated-skills-tree_checkbox__X0kk8 {
-  background-color: #6c51f5;
-  border-color: #6c51f5;
+  background-color: #004289;
+  border-color: #004289;
 }
 .consolidated-skills-tree_checkmark__fRzN4 {
   color: #fff;
@@ -1214,12 +1214,12 @@
   gap: 4px;
   padding: 4px 8px;
   background-color: rgba(108, 81, 245, 0.188);
-  border: 1px solid #6c51f5;
+  border: 1px solid #004289;
   border-radius: 4px;
   font-size: 14px;
 }
 .consolidated-skills-tree_skillTagText__3lk7P {
-  color: #6c51f5;
+  color: #004289;
 }
 .consolidated-skills-tree_skillTagClose__SBkeH {
   background: none;
@@ -1232,7 +1232,7 @@
   justify-content: center;
 }
 .consolidated-skills-tree_skillTagCloseIcon___cZi8 {
-  stroke: #6c51f5;
+  stroke: #004289;
 }
 @keyframes contract-type_rotation__oJyc3 {
   0% {
@@ -1289,9 +1289,9 @@
 }
 .address-form_userAddressLine2__740PE > a {
   cursor: pointer;
-  color: #6c51f5;
-  -webkit-text-decoration: underline #6c51f5 solid 1px;
-  text-decoration: underline #6c51f5 solid 1px;
+  color: #004289;
+  -webkit-text-decoration: underline #004289 solid 1px;
+  text-decoration: underline #004289 solid 1px;
 }
 .address-form_splitFields__AG_vi {
   display: grid;
@@ -1497,7 +1497,7 @@
   .contact-section_footerItem__fAn_a
   .contact-section_linksContainer__PRrYK
   .contact-section_footerLink__qP5ae:hover {
-  color: #6c51f5;
+  color: #004289;
 }
 .contact-section_contactSection__Nkkz_
   .contact-section_footerContainer__UiZBr
@@ -2003,8 +2003,8 @@
 }
 .marketing-email-form_marketingForm__ANeMY
   .marketing-email-form_submitButton__C4f86:hover:not(:disabled):hover {
-  background: #6c51f5;
-  border-color: #6c51f5;
+  background: #004289;
+  border-color: #004289;
   color: #fff;
 }
 .marketing-email-form_marketingForm__ANeMY
@@ -2042,7 +2042,7 @@
   .marketing-email-form_submitMessage__Fv9VN {
   font-size: var(--step-0);
   margin-bottom: 0;
-  color: #6c51f5;
+  color: #004289;
   padding-right: 20px;
 }
 .marketing-email-form_marketingForm__ANeMY
@@ -2127,8 +2127,8 @@
   transition: background-color 0.2s, border-color 0.2s;
 }
 .checkbox-list-item_checkboxLabel__gyRpy.checkbox-list-item_checked__bcYQM {
-  background-color: #6c51f5;
-  border-color: #6c51f5;
+  background-color: #004289;
+  border-color: #004289;
   color: #fff;
 }
 .checkbox-list-item_checkmark__keRYL {
@@ -2573,7 +2573,7 @@
   gap: var(--grid-gutter);
   grid-template-columns: repeat(9, 1fr);
   width: 100%;
-  background-color: #6c51f5;
+  background-color: #004289;
 }
 @media only screen and (min-width: 1920px) {
   .job-application_main__sYwZi .job-application_topContainer__nSEan {
@@ -2697,7 +2697,7 @@
     height: fit-content;
     grid-column: 1 / span 12;
     grid-row: 2 / span 1;
-    background-color: #6c51f5;
+    background-color: #004289;
     padding: var(--space-s);
   }
   .job-application_main__sYwZi
@@ -3427,7 +3427,7 @@
 .company-overview_companyOverview__LM80y
   .company-overview_smallTopPurpleContainer__o3SJb {
   height: 185px;
-  background-color: #6c51f5;
+  background-color: #004289;
   position: absolute;
   top: 370px;
   left: 0;
@@ -3667,8 +3667,8 @@
   }
 }
 .company-overview_capability__OYyYv:hover {
-  background: #6c51f5;
-  border-color: #6c51f5;
+  background: #004289;
+  border-color: #004289;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25),
     0 0 15px 0 rgba(0, 0, 0, 0.07);
   color: #fff;
@@ -4353,7 +4353,7 @@
   }
 }
 .intro-animation_introAnimation___Pait {
-  background: #6c51f5;
+  background: #004289;
   color: #fff;
   position: fixed;
   top: 0;

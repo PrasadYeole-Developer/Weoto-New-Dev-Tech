@@ -151,7 +151,7 @@
 }
 .progress-indicator_container__GfwMl .progress-indicator_percentage__rmZbm {
   font-size: 12px;
-  fill: #6c51f5;
+  fill:;
 }
 .progress-indicator_container__GfwMl .progress-indicator_percentageText__b0Lw3 {
   font-size: var(--step-1);
@@ -614,7 +614,7 @@ pre[class*="language-"] {
   color: #fff !important;
 }
 .small-cta_ctaBackground-purple__wkpgM {
-  background-color: #6c51f5;
+  background-color:;
 }
 .small-cta_ctaBackground-purple__wkpgM
   a:hover:not(:disabled):hover

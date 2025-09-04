@@ -186,7 +186,7 @@
 .leaders-display_leadersContainer__8aZcf
   .leaders-display_leader__lOMsS.leaders-display_modalOpen___I1wX
   .leaders-display_imageContainer__BNjqK {
-  background: #6c51f5;
+  background: #004289;
 }
 .leaders-display_leadersContainer__8aZcf
   .leaders-display_leader__lOMsS
@@ -253,7 +253,7 @@
 .leaders-display_leadersContainer__8aZcf
   .leaders-display_leader__lOMsS
   .leaders-display_position__4cZrf {
-  color: #6c51f5;
+  color: #004289;
   margin-top: var(--space-2xs);
   font-size: var(--step--2);
 }
@@ -497,7 +497,7 @@
   max-width: var(--grid-max-width);
   padding-inline: var(--space-2xl);
   margin-inline: auto;
-  background: #6c51f5;
+  background: #004289;
 }
 @media only screen and (max-width: 1519px) {
   .grid-list_gridListWrapper__rQgrp {
@@ -510,7 +510,7 @@
   }
 }
 .grid-list_purple__9HlkB {
-  background: #6c51f5;
+  background: #004289;
 }
 .grid-list_dark__7ySyO {
   background: #020023;
@@ -1016,7 +1016,7 @@
   height: calc(var(--space-4xl) * 6);
 }
 .feature-block_differenceContainer__kRzag {
-  background-image: url(../../../images/gray-big-hero.png);
+  /* background-image: url(../../../images/WTransparentSVG.svg); */
   background-repeat: no-repeat;
 }
 .feature-block_uContainer__DMX5R {
@@ -1157,7 +1157,7 @@
   transition: max-height 0.3s cubic-bezier(0.83, 0, 0.17, 1);
 }
 .guiding-principles_grid__guXeA .guiding-principles_item__9YM3p:hover {
-  background-color: #6c51f5;
+  background-color: #004289;
 }
 .guiding-principles_grid__guXeA
   .guiding-principles_item__9YM3p:hover
@@ -1302,7 +1302,7 @@
     min-height: 200px;
   }
   .guiding-principles_grid__guXeA .guiding-principles_item__9YM3p {
-    background-color: #6c51f5;
+    background-color: #004289;
   }
   .guiding-principles_grid__guXeA
     .guiding-principles_item__9YM3p
@@ -1906,7 +1906,7 @@
   }
 }
 .bright-side-block_brightSection__JHSBf {
-  background-color: #6c51f5;
+  background-color: #004289;
 }
 .bright-side-block_brightSection__JHSBf
   .bright-side-block_brightContainer__zxNfX {
@@ -2963,7 +2963,7 @@
   margin-bottom: var(--space-xl);
 }
 .case-study_caseStudyHighlight__9ZV_m {
-  color: #6c51f5 !important;
+  color: #004289 !important;
   font-size: var(--step-1) !important;
   font-family: FKGrotesk-Regular, sans-serif;
   font-weight: 400;
@@ -3194,7 +3194,7 @@
   font-family: FKGrotesk-Medium, sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  color: #6c51f5;
+  color: #004289;
   margin-bottom: var(--space-xs);
   line-height: 3rem;
   white-space: nowrap;
