@@ -184,7 +184,7 @@ body {
 }
 
 .home-contact-section_wrapper__c2_nE textarea {
-  resize: none;
+  resize: none !important;
 }
 
 .navbar_lumenaltaNavbar__TdKXO {
@@ -702,6 +702,9 @@ figure footer {
     height: 16rem;
   }
   .bfsiSvgContainer .imageContainer img {
+    display: none;
+  }
+  .careerSectionImage {
     display: none;
   }
 }
