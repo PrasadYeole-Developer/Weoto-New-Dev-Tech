@@ -653,8 +653,8 @@ figure footer {
 }
 @media (max-width: 388px) {
   .heroH1Div h1 {
-    font-size: 3rem !important;
-    padding-top: 3rem !important;
+    font-size: 2.5rem !important;
+    padding-top: 5rem !important;
   }
 }
 @media (min-width: 992px) {
