@@ -140,6 +140,10 @@ body {
   padding: 2rem !important; /* Updated approach list item's spacing */
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 .scrollTitle {
   display: none;
 }

@@ -141,6 +141,9 @@ body {
 .navbar_menuItem__5S2KM.expertise .expertiseDropdown .approachHome a {
   padding: 2rem !important; /* Updated approach list item's spacing */
 }
+.disabled {
+  pointer-events: none;
+}
 
 .scrollTitle {
   display: none;
